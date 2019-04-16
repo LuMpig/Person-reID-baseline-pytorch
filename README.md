@@ -22,16 +22,16 @@ batchsize = 16, without dropout and data augmentation, image size is 288x144 (fo
 | **DenseNet121** | **81.0** | **63.4** |
 | **DPN68b**      | 73.2 | 52.8 |
 
-### CUHK03-detected
-| Model   | top-1   | mAP    |
-| :-----: | :-----: | :----: |
-| **ResNet50**    | 44.5 | 39.1 |
-| **DenseNet121** | **47.0** | **42.0** |
-| **DPN68b**      | 42.6 | 36.7 |
-
 ### CUHK03-labeled
 | Model   | top-1   | mAP    |
 | :-----: | :-----: | :----: |
 | **ResNet50**    | 44.6 | 39.9 |
 | **DenseNet121** | **46.8** | **42.1** |
 | **DPN68b**      | 42.8 | 38.0 |
+
+### CUHK03-detected
+| Model   | top-1   | mAP    |
+| :-----: | :-----: | :----: |
+| **ResNet50**    | 42.6 | 37.2 |
+| **DenseNet121** | **43.1** | **37.9** |
+| **DPN68b**      | 40.6 | 35.4 |
